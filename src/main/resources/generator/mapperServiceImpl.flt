@@ -1,0 +1,18 @@
+package ${package};
+
+import ${mapperPackage}.I${tableClass.shortClassName}${mapperSuffix};
+import ${tableClass.fullClassName};
+import com.zero.core.common.service.*;
+import javax.transaction.Transactional;
+import org.springframework.stereotype.Service;
+/**
+* 通用 Service 代码生成器
+*
+* @author service-generator
+*/
+@Service
+@Transactional
+public class ${tableClass.shortClassName}${mapperSuffix} extends ${baseMapper!"CommonService"}<${tableClass.variableName?cap_first}> implements I${tableClass.shortClassName}${mapperSuffix} 
+{
+
+}

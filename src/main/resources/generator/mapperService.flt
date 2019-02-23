@@ -1,0 +1,12 @@
+package ${package};
+
+import ${tableClass.fullClassName};
+
+/**
+* 通用 Service 代码生成器
+*
+* @author service-generator
+*/
+public interface I${tableClass.shortClassName}${mapperSuffix} extends ${baseMapper!"com.zero.core.common.service.ICommonService"}<${tableClass.variableName?cap_first}> {
+
+}

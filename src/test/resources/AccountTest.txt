@@ -1,0 +1,166 @@
+目标package: 
+
+当前时间：
+2017-12-14
+20:13:49
+2017-12-14 20:13:49
+
+所有配置的属性信息:
+targetPackage - 
+templateFormatter - com.zero.core.mybatis.mapper.generator.formatter.FreemarkerTemplateFormatter
+templatePath - generator/test-one.ftl
+targetProject - src/test/resources
+fileName - ${tableClass.shortClassName}Test.txt
+
+实体和表的信息：
+表名：account
+变量名：account
+小写名：account
+类名：Account
+全名：com.zero.core.model.Account
+包名：com.zero.core.model
+
+列的信息：
+=====================================
+主键：
+    -------------------------------------
+    列名：fID
+    列类型：VARCHAR
+    字段名：fid
+    注释：ID
+    类型包名：java.lang
+    类型短名：String
+    类型全名：java.lang.String
+    是否主键：false
+    是否可空：false
+    是否为BLOB列：false
+    是否为String列：true
+    是否为字符串列：true
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：32
+    列精度：0
+
+基础列：
+    -------------------------------------
+    列名：fCreateTime
+    列类型：TIMESTAMP
+    字段名：fcreatetime
+    注释：创建时间
+    类型包名：java.util
+    类型短名：Date
+    类型全名：java.util.Date
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：false
+    是否为字符串列：false
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：19
+    列精度：0
+    -------------------------------------
+    列名：fDate
+    列类型：DATE
+    字段名：fdate
+    注释：日期
+    类型包名：java.util
+    类型短名：Date
+    类型全名：java.util.Date
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：false
+    是否为字符串列：false
+    是否为日期列：true
+    是否为时间列：false
+    是否为序列列：false
+    列长度：10
+    列精度：0
+    -------------------------------------
+    列名：fMoney
+    列类型：DECIMAL
+    字段名：fmoney
+    注释：金额
+    类型包名：java.lang
+    类型短名：Long
+    类型全名：java.lang.Long
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：false
+    是否为字符串列：false
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：10
+    列精度：0
+    -------------------------------------
+    列名：fDescription
+    列类型：VARCHAR
+    字段名：fdescription
+    注释：备注
+    类型包名：java.lang
+    类型短名：String
+    类型全名：java.lang.String
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：true
+    是否为字符串列：true
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：512
+    列精度：0
+    -------------------------------------
+    列名：fType
+    列类型：VARCHAR
+    字段名：ftype
+    注释：类型
+    类型包名：java.lang
+    类型短名：String
+    类型全名：java.lang.String
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：true
+    是否为字符串列：true
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：32
+    列精度：0
+    -------------------------------------
+    列名：fClass
+    列类型：VARCHAR
+    字段名：fclass
+    注释：分类
+    类型包名：java.lang
+    类型短名：String
+    类型全名：java.lang.String
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：true
+    是否为字符串列：true
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：32
+    列精度：0
+
+Blob列：
+
+=====================================
+全部列：
+列名 - 字段名
+    fID - fid
+    fCreateTime - fcreatetime
+    fDate - fdate
+    fMoney - fmoney
+    fDescription - fdescription
+    fType - ftype
+    fClass - fclass

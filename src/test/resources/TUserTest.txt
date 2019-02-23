@@ -1,0 +1,147 @@
+目标package: 
+
+当前时间：
+2017-12-22
+15:14:41
+2017-12-22 15:14:41
+
+所有配置的属性信息:
+targetPackage - 
+templateFormatter - com.zero.core.mybatis.mapper.generator.formatter.FreemarkerTemplateFormatter
+templatePath - generator/test-one.ftl
+targetProject - src/test/resources
+fileName - ${tableClass.shortClassName}Test.txt
+
+实体和表的信息：
+表名：t_user
+变量名：TUser
+小写名：tuser
+类名：TUser
+全名：com.zero.demo.model.TUser
+包名：com.zero.demo.model
+
+列的信息：
+=====================================
+主键：
+    -------------------------------------
+    列名：id
+    列类型：VARCHAR
+    字段名：id
+    注释：
+    类型包名：java.lang
+    类型短名：String
+    类型全名：java.lang.String
+    是否主键：true
+    是否可空：false
+    是否为BLOB列：false
+    是否为String列：true
+    是否为字符串列：true
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：50
+    列精度：0
+
+基础列：
+    -------------------------------------
+    列名：name
+    列类型：VARCHAR
+    字段名：name
+    注释：
+    类型包名：java.lang
+    类型短名：String
+    类型全名：java.lang.String
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：true
+    是否为字符串列：true
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：50
+    列精度：0
+    -------------------------------------
+    列名：password
+    列类型：VARCHAR
+    字段名：password
+    注释：
+    类型包名：java.lang
+    类型短名：String
+    类型全名：java.lang.String
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：true
+    是否为字符串列：true
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：50
+    列精度：0
+    -------------------------------------
+    列名：nickName
+    列类型：VARCHAR
+    字段名：nickname
+    注释：
+    类型包名：java.lang
+    类型短名：String
+    类型全名：java.lang.String
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：true
+    是否为字符串列：true
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：50
+    列精度：0
+    -------------------------------------
+    列名：sex
+    列类型：INTEGER
+    字段名：sex
+    注释：
+    类型包名：java.lang
+    类型短名：Integer
+    类型全名：java.lang.Integer
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：false
+    是否为字符串列：false
+    是否为日期列：false
+    是否为时间列：false
+    是否为序列列：false
+    列长度：10
+    列精度：0
+    -------------------------------------
+    列名：birthDay
+    列类型：DATE
+    字段名：birthday
+    注释：
+    类型包名：java.util
+    类型短名：Date
+    类型全名：java.util.Date
+    是否主键：false
+    是否可空：true
+    是否为BLOB列：false
+    是否为String列：false
+    是否为字符串列：false
+    是否为日期列：true
+    是否为时间列：false
+    是否为序列列：false
+    列长度：10
+    列精度：0
+
+Blob列：
+
+=====================================
+全部列：
+列名 - 字段名
+    id - id
+    name - name
+    password - password
+    nickName - nickname
+    sex - sex
+    birthDay - birthday
